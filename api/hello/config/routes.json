@@ -1,0 +1,14 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/hello",
+      "handler": "Hello.index"
+    },
+    {
+      "method": "GET",
+      "path": "/hello/find",
+      "handler": "Hello.find"
+    }
+  ]
+}
