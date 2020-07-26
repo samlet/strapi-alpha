@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "simples",
+  "info": {
+    "name": "simple"
+  },
+  "options": {
+    "timestamps": true,
+    "increments": true,
+    "comment": ""
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "comment": {
+      "type": "text"
+    }
+  }
+}
